@@ -11,7 +11,7 @@
     width: 1320px;
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner Image.png');
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 16px;
 }
 
@@ -113,7 +113,7 @@
     margin-bottom: 20px;
 }
 
-.con-text p {
+.con-text p, .feature-text p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -124,7 +124,7 @@
     /* 166.667% */
 }
 
-.con-text button {
+button {
     color: white;
     display: inline-block;
     margin-left: 40px;
@@ -156,4 +156,104 @@
     line-height: 88px;
     /* 137.5% */
     letter-spacing: 7.04px;
+}
+
+.wa {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 275px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.wa-p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-left: 400px;
+}
+
+span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.waba {
+    margin-left: 370px;
+    margin-top: 15px;
+}
+
+#feature {
+    width: 1600px;
+    height: auto;
+    margin: 20px 255px;
+}
+
+.first-row {
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.first-row .pic {
+    margin-left: 10px;
+}
+
+.second-row .pic {
+    margin-left: 10px;
+}
+
+.second-row {
+    display: flex;
+    border-radius: 16px;
+}
+
+.feature-text {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.feature-text .the {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.feature-text .our {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.feature-text p {
+    color: gray;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+    /* 166.667% */
 }
