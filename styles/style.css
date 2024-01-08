@@ -113,7 +113,8 @@
     margin-bottom: 20px;
 }
 
-.con-text p, .feature-text p {
+.con-text p,
+.feature-text p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -237,7 +238,8 @@ span {
     margin-bottom: 15px;
 }
 
-.feature-text .our {
+.feature-text .our h1,
+.newsletter h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -247,7 +249,9 @@ span {
     text-transform: capitalize;
     margin-bottom: 15px;
 }
-.feature-text p {
+
+.feature-text p,
+.newsletter p {
     color: gray;
     font-family: Inter;
     font-size: 18px;
@@ -256,4 +260,61 @@ span {
     line-height: 30px;
     margin-bottom: 20px;
     /* 166.667% */
+}
+
+.newsletter {
+    margin: 30px auto;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.newsletter img {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="email"] {
+    width: 300px;
+    height: 52px;
+
+    border-radius: 50px 0 0 50px;
+    padding-left: 20px;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter input[type="submit"] {
+    width: 150px;
+    height: 52px;
+
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.forinput {
+    display: flex;
+    margin-left: 400px;
+    align-items: center;
+    text-align: center;
 }
