@@ -318,3 +318,133 @@ span {
     align-items: center;
     text-align: center;
 }
+
+footer {
+    background: #070211;
+    padding: 120px 140px;
+
+}
+
+.bah * {
+    color: white;
+}
+
+.bah-text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bah-text1 {
+    width: 300px;
+    line-height: 30px
+}
+
+.bah-text2-part1 {
+    display: inline;
+}
+
+.bah-text2 * {
+    display: inline;
+    line-height: 5px;
+}
+
+.bah-text2-part1 p {
+    font-size: 20px;
+}
+
+bah-text2-part2 p {
+    font-size: 20px;
+}
+
+.bah-icon {
+    margin-left: 40%;
+    margin-top: 18px;
+    display: flex;
+}
+
+.bah-icon img {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.bah-copywrite {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bonus {
+    display: flex;
+    margin: auto 140px;
+    align-items: center;
+}
+.mid-pic{
+display: flex;
+align-items: center;
+border-radius: 463px;
+border: 15px solid #F00;
+margin-right: 40px;
+}
+.mid-pic img{
+    padding: 25px;
+}
+.left {
+    width: 400px;
+}
+
+.left {
+    width: 400px;
+    margin-right: 40px;
+}
+
+.left h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom:10px ;
+}
+
+.left h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.right{
+    width: 300px;
+}
+.right h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
