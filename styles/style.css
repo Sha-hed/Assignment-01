@@ -151,11 +151,13 @@ button {
     border-radius: 8px;
     background: hsl(0, 100%, 50%);
     border: 0;
-    cursor:pointer;
+    cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: gray;
 }
+
 .con-img {
     max-width: 320px;
     margin-right: 140px;
@@ -225,11 +227,13 @@ span {
     border-radius: 16px;
     margin-bottom: 10px;
 }
-.pic{
+
+.pic {
     margin-left: 10px;
     transition: 0.5s;
 }
-.pic:hover{
+
+.pic:hover {
     cursor: pointer;
     transform: scale(1.3);
     z-index: 2;
@@ -335,7 +339,8 @@ span {
     text-transform: capitalize;
     cursor: pointer;
 }
-.newsletter input[type="submit"]:hover{
+
+.newsletter input[type="submit"]:hover {
     background-color: gray;
 }
 
@@ -357,6 +362,10 @@ footer {
     color: white;
 }
 
+.bah hr {
+    color: gray
+}
+
 .bah-text {
     align-items: center;
     display: flex;
@@ -368,21 +377,9 @@ footer {
     line-height: 30px
 }
 
-.bah-text2-part1 {
-    display: inline;
-}
-
 .bah-text2 * {
-    display: inline;
-    line-height: 5px;
-}
-
-.bah-text2-part1 p {
-    font-size: 20px;
-}
-
-bah-text2-part2 p {
-    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .bah-icon {
@@ -481,4 +478,11 @@ bah-text2-part2 p {
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+.horizontal-line {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 5px;
 }
